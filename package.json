@@ -1,0 +1,20 @@
+{
+  "name": "granular_hydra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js --ssl --open --live --port 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "codemirror": "^5.36.0",
+    "getusermedia": "^2.0.1",
+    "hydra-synth": "^1.0.19",
+    "raf-loop": "^1.1.3",
+    "rtc-patch-bay": "^1.0.0",
+    "webrtc-adapter": "^6.3.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
